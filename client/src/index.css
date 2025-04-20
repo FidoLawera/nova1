@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .bg-ui-blue {
+    @apply bg-slate-900;
+  }
+  
+  .text-light {
+    @apply text-slate-100;
+  }
+  
+  .text-dark {
+    @apply text-slate-900;
+  }
+  
+  .border-accent-gold {
+    @apply border-amber-500;
+  }
+  
+  .text-accent-gold {
+    @apply text-amber-500;
+  }
+  
+  .bg-accent-gold {
+    @apply bg-amber-500;
+  }
+  
+  .bg-dark {
+    @apply bg-slate-800;
+  }
+  
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+}
